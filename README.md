@@ -1,12 +1,12 @@
 # spring-gradle
-practice board 
-
-java 8
-spring 4
-mysql(mybatis)
-gradle
-+intelliJ
-and so on..
+practice board<br/> 
+<br/>
+java 8<br/>
+spring 4<br/>
+mysql(mybatis)<br/>
+gradle<br/>
++intelliJ<br/>
+and so on..<br/>
 
 ```
 CREATE TABLE TBL_BOARD (
