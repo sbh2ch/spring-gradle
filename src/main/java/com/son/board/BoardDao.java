@@ -1,9 +1,11 @@
 package com.son.board;
 
+import com.son.file.FileVO;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -36,5 +38,17 @@ public class BoardDao {
 
     public void deleteBoard(String brdNo) {
         sqlSession.update("board.deleteBoard", brdNo);
+    }
+
+    public void deleteFile(HashMap<String, String[]> fparam) {
+        sqlSession.delete("board.deleteFile", fparam);
+    }
+
+    public void insertFile(FileVO f) {
+        sqlSession.insert("board.insertFile", f);
+    }
+
+    public List<FileVO> selectFileList(String brdNo) {
+        return sqlSession.selectList("board.selectFileList", brdNo);
     }
 }

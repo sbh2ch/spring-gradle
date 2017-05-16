@@ -34,6 +34,11 @@
     <tr>
         <td>attach</td>
         <td>
+            <c:forEach var="listView" items="${listView}" varStatus="status">
+                <a href="/board/fileDownload?fileName=<c:out value="${listView.fileName}"/>&downName=<c:out value="${listView.realName}"/>"><c:out
+                        value="${listView.fileName}"/></a>
+                <c:out value="${listView.size2String()}"/><br/>
+            </c:forEach>
         </td>
     </tr>
     </tbody>

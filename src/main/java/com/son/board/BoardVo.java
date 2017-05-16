@@ -1,5 +1,9 @@
 package com.son.board;
 
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
+
 /**
  * Created by kiost on 2017-05-11.
  */
@@ -11,8 +15,17 @@ public class BoardVo {
     private String brdDate;
     private String brdHit;
     private String brdDeleteFlag;
+    private List<MultipartFile> uploadFiles;
 
     public BoardVo() {
+    }
+
+    public List<MultipartFile> getUploadFiles() {
+        return uploadFiles;
+    }
+
+    public void setUploadFiles(List<MultipartFile> uploadFiles) {
+        this.uploadFiles = uploadFiles;
     }
 
     public String getBrdNo() {

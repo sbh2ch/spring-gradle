@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by kiost on 2017-05-11.
@@ -25,6 +26,7 @@ public class BoardController {
     @RequestMapping("/boardRead.kosc")
     public String boardRead(Model model, BoardVo boardVo) {
         model.addAttribute("boardInfo", service.readBoardOne(boardVo.getBrdNo()));
+        model.addAttribute("listView",service.selectFileList(boardVo.getBrdNo()));
         return "read";
     }
 
@@ -32,13 +34,15 @@ public class BoardController {
     public String boardForm(Model model, HttpServletRequest req) {
         String brdNo = req.getParameter("brdNo");
         model.addAttribute("boardInfo", service.readBoardOne(brdNo));
+        model.addAttribute("listView",service.selectFileList(brdNo));
 
         return "writeForm";
     }
 
     @RequestMapping("/boardSave.kosc")
-    public String boardSave(Model model, BoardVo boardVo){
-        service.writeBoard(boardVo);
+    public String boardSave(Model model, HttpServletRequest req, BoardVo boardVo){
+        String[] fileNo = req.getParameterValues("fileNo");
+        service.writeBoard(boardVo, fileNo);
 
         return "redirect:/board/boardList.kosc";
     }
@@ -49,4 +53,6 @@ public class BoardController {
 
         return "redirect:boardList.kosc";
     }
+
+
 }

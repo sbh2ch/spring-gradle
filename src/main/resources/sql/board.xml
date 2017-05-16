@@ -40,4 +40,26 @@
         SET BRDDELETEFLAG = 'Y'
         WHERE BRDNO = #{brdNo}
     </update>
+
+    <delete id="deleteFile" parameterType="hashmap">
+        DELETE
+        FROM TBL_BOARDFILE
+        WHERE FILENO IN (
+        <foreach collection="fileNo" item="item" index="index" separator=",">
+            ${item}
+        </foreach>
+        )
+    </delete>
+
+    <insert id="insertFile" parameterType="com.son.file.FileVO">
+        INSERT INTO TBL_BOARDFILE(BRDNO, FILENAME, REALNAME, FILESIZE)
+        VALUES (#{parentPK}, #{fileName}, #{realName}, #{fileSize})
+    </insert>
+
+    <select id="selectFileList" parameterType="String" resultType="com.son.file.FileVO">
+        SELECT FILENO, FILENAME, REALNAME, FILESIZE
+        FROM TBL_BOARDFILE
+        WHERE BRDNO=#{brdNo}
+        ORDER BY FILENO DESC
+    </select>
 </mapper>

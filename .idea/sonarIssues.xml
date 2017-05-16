@@ -68,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../board00/src/main/resources/sql/board1.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../board00/src/main/webapp/WEB-INF/applicationContext.xml">
           <value>
             <set />
@@ -89,6 +94,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/son/board/BoardService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/son/board/BoardVo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/son/file/FileController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/son/file/FileUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/son/file/FileVO.java">
           <value>
             <set />
           </value>

@@ -13,7 +13,7 @@
     <title>writeForm</title>
 </head>
 <body>
-<form name="form1" action="/board/boardSave.kosc" method="post">
+<form name="form1" action="/board/boardSave.kosc" method="post" enctype="multipart/form-data">
     <table border="1" style="width: 600px">
         <caption>board</caption>
         <colgroup>
@@ -39,6 +39,12 @@
         <tr>
             <td>attach</td>
             <td>
+                <c:forEach var="listView" items="${listView}" varStatus="status">
+                    <input type="checkbox" name="fileNo" value="<c:out value="${listView.fileNo}"/>">
+                    <a href="fileDownload?fileName=<c:out value="${listView.fileName}"/>&downName=<c:out value="${listView.realName}"/>"><c:out value="${listView.fileName}"/></a>
+                    <c:out value="${listView.size2String()}"/>
+                </c:forEach>
+                <input type="file" name="uploadFiles" multiple>
             </td>
         </tr>
         </tbody>
