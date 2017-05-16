@@ -45,4 +45,26 @@ public class BoardService {
         }
         return boardVo;
     }
+
+
+    public void writeBoard(BoardVo boardVo) {
+        DefaultTransactionDefinition def = new DefaultTransactionDefinition();
+        def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRED);
+        TransactionStatus status = txManager.getTransaction(def);
+        String brdNo = boardVo.getBrdNo();
+        try {
+            if (brdNo == null || brdNo.equals("")) {
+                boardDao.insertBoard(boardVo);
+            } else {
+                boardDao.updateBoard(boardVo);
+            }
+            txManager.commit(status);
+        } catch (Exception e) {
+            txManager.rollback(status);
+        }
+    }
+
+    public void deleteBoard(BoardVo boardVo) {
+        boardDao.deleteBoard(boardVo.getBrdNo());
+    }
 }

@@ -18,14 +18,35 @@ public class BoardController {
 
     @RequestMapping("/boardList.kosc ")
     public String list(Model model) {
-        model.addAttribute("listView",service.selectBoardList());
+        model.addAttribute("listView", service.selectBoardList());
         return "list";
     }
 
     @RequestMapping("/boardRead.kosc")
-    public String boardRead(Model model, HttpServletRequest req){
+    public String boardRead(Model model, BoardVo boardVo) {
+        model.addAttribute("boardInfo", service.readBoardOne(boardVo.getBrdNo()));
+        return "read";
+    }
+
+    @RequestMapping("/boardWriteForm.kosc")
+    public String boardForm(Model model, HttpServletRequest req) {
         String brdNo = req.getParameter("brdNo");
-        model.addAttribute("boardInfo",service.readBoardOne(brdNo));
-        return "redirect:read";
+        model.addAttribute("boardInfo", service.readBoardOne(brdNo));
+
+        return "writeForm";
+    }
+
+    @RequestMapping("/boardSave.kosc")
+    public String boardSave(Model model, BoardVo boardVo){
+        service.writeBoard(boardVo);
+
+        return "redirect:/board/boardList.kosc";
+    }
+
+    @RequestMapping("/boardDelete.kosc")
+    public String boardDelete(BoardVo boardVo){
+        service.deleteBoard(boardVo);
+
+        return "redirect:boardList.kosc";
     }
 }

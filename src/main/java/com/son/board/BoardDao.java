@@ -14,7 +14,7 @@ public class BoardDao {
     @Autowired
     private SqlSession sqlSession;
 
-    public List<BoardVo> selectBoardList(){
+    public List<BoardVo> selectBoardList() {
         return sqlSession.selectList("board.selectBoardList");
     }
 
@@ -24,5 +24,17 @@ public class BoardDao {
 
     public void hitUpBoard(String brdNo) {
         sqlSession.update("board.hitUpBoard", brdNo);
+    }
+
+    public void insertBoard(BoardVo boardVo) {
+        sqlSession.insert("board.insertBoard", boardVo);
+    }
+
+    public void updateBoard(BoardVo boardVo) {
+        sqlSession.update("board.updateBoard", boardVo);
+    }
+
+    public void deleteBoard(String brdNo) {
+        sqlSession.update("board.deleteBoard", brdNo);
     }
 }

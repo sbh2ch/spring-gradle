@@ -38,5 +38,8 @@
     </tr>
     </tbody>
 </table>
+<a href="/board/boardList.kosc">home</a>
+<a href="/board/boardWriteForm.kosc?brdNo=<c:out value="${boardInfo.brdNo}"/>">mod</a>
+<a href="/board/boardDelete.kosc?brdNo=<c:out value="${boardInfo.brdNo}"/>">del</a>
 </body>
 </html>

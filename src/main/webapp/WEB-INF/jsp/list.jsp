@@ -12,6 +12,7 @@
     <title>hello</title>
 </head>
 <body>
+<a href="boardWriteForm.kosc">write</a>
 <table border="1" style="width: 600px">
     <caption>board</caption>
     <colgroup>

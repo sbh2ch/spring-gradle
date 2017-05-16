@@ -20,4 +20,24 @@
         SET BRDHIT = BRDHIT + 1
         WHERE BRDNO = #{brdNo}
     </update>
+
+    <insert id="insertBoard" parameterType="com.son.board.BoardVo">
+        <selectKey resultType="String" keyProperty="brdNo" order="BEFORE">
+            SELECT IFNULL(MAX(BRDNO),0)+1 FROM TBL_BOARD
+        </selectKey>
+        INSERT INTO TBL_BOARD(BRDNO, BRDTITLE, BRDWRITER, BRDMEMO, BRDDATE, BRDHIT, BRDDELETEFLAG)
+        VALUES(#{brdNo}, #{brdTitle}, #{brdWriter}, #{brdMemo}, NOW(), 0, 'N')
+    </insert>
+
+    <update id="updateBoard" parameterType="com.son.board.BoardVo">
+        UPDATE TBL_BOARD
+        SET  BRDTITLE=#{brdTitle}, BRDMEMO = #{brdMemo}, BRDWRITER = #{brdWriter}
+        WHERE BRDNO = #{brdNo} AND BRDDELETEFLAG = 'N'
+    </update>
+
+    <update id="deleteBoard" parameterType="String">
+        UPDATE TBL_BOARD
+        SET BRDDELETEFLAG = 'Y'
+        WHERE BRDNO = #{brdNo}
+    </update>
 </mapper>
