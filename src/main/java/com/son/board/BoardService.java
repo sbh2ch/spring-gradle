@@ -1,5 +1,7 @@
 package com.son.board;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Service;
@@ -14,6 +16,8 @@ import java.util.List;
  */
 @Service
 public class BoardService {
+    private static final Logger LOGGER = LoggerFactory.getLogger(BoardService.class);
+
     @Autowired
     private BoardDao boardDao;
 
@@ -31,15 +35,12 @@ public class BoardService {
         BoardVo boardVo = null;
 
         try {
+            LOGGER.info("brdno : " + brdNo);
             boardVo = boardDao.selectBoardOne(brdNo);
-            if (boardVo == null) {
-                txManager.rollback(status);
-            }
             boardDao.hitUpBoard(brdNo);
-
             txManager.commit(status);
         } catch (Exception e) {
-            System.out.println("조회 오류 : " + e.toString());
+            LOGGER.error("조회오류 : " + e.toString());
             txManager.rollback(status);
         }
         return boardVo;

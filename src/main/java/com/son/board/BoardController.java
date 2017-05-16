@@ -24,8 +24,8 @@ public class BoardController {
 
     @RequestMapping("/boardRead.kosc")
     public String boardRead(Model model, HttpServletRequest req){
-        String brdNo = req.getParameter("brdno");
-        model.addAttribute("listView",service.readBoardOne(brdNo));
-        return "read";
+        String brdNo = req.getParameter("brdNo");
+        model.addAttribute("boardInfo",service.readBoardOne(brdNo));
+        return "redirect:read";
     }
 }

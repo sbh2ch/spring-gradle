@@ -12,6 +12,31 @@
     <title>read</title>
 </head>
 <body>
-    
+<table border="1" style="width: 600px;">
+    <caption>board</caption>
+    <colgroup>
+        <col width="15%"/>
+        <col width="*%"/>
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>writer</td>
+        <td><c:out value="${boardInfo.brdWriter}"/></td>
+    </tr>
+    <tr>
+        <td>title</td>
+        <td><c:out value="${boardInfo.brdTitle}"/></td>
+    </tr>
+    <tr>
+        <td>content</td>
+        <td><c:out value="${boardInfo.brdMemo}" escapeXml="false"/></td>
+    </tr>
+    <tr>
+        <td>attach</td>
+        <td>
+        </td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>

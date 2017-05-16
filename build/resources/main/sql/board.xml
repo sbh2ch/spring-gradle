@@ -8,4 +8,16 @@
         WHERE BRDDELETEFLAG='N'
         ORDER BY BRDNO DESC
     </select>
+
+    <select id="selectBoardOne" resultType="com.son.board.BoardVo" parameterType="String">
+        SELECT BRDNO, BRDWRITER, BRDTITLE, BRDMEMO, DATE_FORMAT(BRDDATE, '%Y-%m-%d') BRDDATE
+        FROM TBL_BOARD
+        WHERE BRDNO = #{brdNo} AND BRDDELETEFLAG = 'N'
+    </select>
+
+    <update id="hitUpBoard" parameterType="String">
+        UPDATE TBL_BOARD
+        SET BRDHIT = BRDHIT + 1
+        WHERE BRDNO = #{brdNo}
+    </update>
 </mapper>
