@@ -19,8 +19,6 @@ import java.util.List;
  */
 @Service
 public class BoardService {
-    private static final Logger LOGGER = LoggerFactory.getLogger(BoardService.class);
-
     @Autowired
     private BoardDao boardDao;
 
@@ -38,12 +36,10 @@ public class BoardService {
         BoardVo boardVo = null;
 
         try {
-            LOGGER.info("brdno : " + brdNo);
             boardVo = boardDao.selectBoardOne(brdNo);
             boardDao.hitUpBoard(brdNo);
             txManager.commit(status);
         } catch (Exception e) {
-            LOGGER.error("조회오류 : " + e.toString());
             txManager.rollback(status);
         }
         return boardVo;
@@ -66,9 +62,9 @@ public class BoardService {
             }
 
             if (fileNo != null) {
-                HashMap<String, String[]> fparam = new HashMap<>();
-                fparam.put("fileNo", fileNo);
-                boardDao.deleteFile(fparam);
+                HashMap<String, String[]> fileParam = new HashMap<>();
+                fileParam.put("fileNo", fileNo);
+                boardDao.deleteFile(fileParam);
             }
 
             for (FileVO f : fileList) {
