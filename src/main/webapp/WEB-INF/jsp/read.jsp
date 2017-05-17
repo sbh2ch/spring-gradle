@@ -47,28 +47,93 @@
 <a href="/board/boardWriteForm.kosc?brdNo=<c:out value="${boardInfo.brdNo}"/>">mod</a>
 <a href="/board/boardDelete.kosc?brdNo=<c:out value="${boardInfo.brdNo}"/>">del</a>
 <div style="border: 1px solid; width: 600px; padding: 5px;">
-    <form name="replyForm" action="board/replySave" method="post">
+    <form name="replyForm">
         <input type="hidden" name="brdNo" value="<c:out value="${boardInfo.brdNo}"/>"/>
         writer : <input type="text" name="reWriter" size="20" maxlength="20" required/>
         <textarea name="reMemo" rows="3" cols="60" maxlength="500" placeholder="insert reply" required></textarea>
-        <input type="submit" value="save"/>
+        <input type="button" value="save" onclick="javascript:saveReply()"/>
     </form>
 </div>
+<!-- -->
+<div id="commentList"></div>
+<!-- JQuery CDN Version 3.2.1 -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-<c:forEach var="replyList" items="${replyList}" varStatus="status">
-    <div style="border: 1px solid gray; width: 600px; padding: 5px; margin-top: 5px; margin-left: <c:out
-            value="${20*replyList.reDepth}"/>px; display: inline-block">
-        <c:out value="${replyList.reWriter}"/>&nbsp;<c:out value="${replyList.reDate}"/>
-        <a href="#" onclick="fn_replyDelete('<c:out value="${replyList.reNo}"/>')">del</a>
-        <a href="#" onclick="fn_replyUpdate('<c:out value="${replyList.reNo}"/>')">mod</a>
-        <a href="#" onclick="fn_replyReply('<c:out value="${replyList.reNo}"/>')">reply</a>
-        <br/>
-        <div id="reply<c:out value="${replyList.reNo}"/>"><c:out value="${replyList.reMemo}"/></div>
-    </div>
-    <br/>
-</c:forEach>
+<script>
+    function makeReply(data) {
+        var html = "";
+        for (var i = 0; i < data.length; i++) {
+            html += '<div style="border: 1px solid gray; width: 600px; padding: 5px; margin-top: 5px; margin-left: ' + data[i].reDepth * 20 + 'px; display: inline-block">';
+            html += data[i].reWriter + '&nbsp;' + data[i].reDate;
+            html += '<a href="#" onclick="deleteReply(' + data[i].reNo + ')">del</a>&nbsp;';
+            html += '<a href="#" onclick="updateReply(' + data[i].reNo + ')">mod</a>&nbsp;';
+            html += '<a href="#" onclick="replyReply(' + data[i].reNo + ')">reply</a>';
+            html += '<br/>';
+            html += '<div id="reply' + data[i].reNo + '">' + data[i].reMemo + '</div>';
+            html += '</div>';
+            html += '<br/>';
+        }
+        $("#commentList").html(html);
+    }
 
+    function saveReply() {
+        if (document.replyForm.reWriter.value.length > 10) {
+            alert('이름이 넘 길다');
+            return;
+        }
 
+        $.ajax({
+            type: 'POST',
+            url: '/reply/replySaveAjax',
+            data: {
+                'brdNo': '${boardInfo.brdNo}',
+                'reWriter': document.replyForm.reWriter.value,
+                'reMemo': document.replyForm.reMemo.value
+            },
+            dataType: 'json',
+            success: function (data) {
+                makeReply(data);
+            }
+        })
+    }
+
+    function deleteReply(reNo) {
+        $.ajax({
+            type: 'POST',
+            url: '/reply/replyDeleteAjax',
+            data: {
+                'brdNo': reNo
+            },
+            dataType: 'json',
+            success: function (data) {
+                makeReply(data);
+            }
+        })
+        console.log(reNo);
+    }
+
+    function updateReply(reNo) {
+        console.log(reNo);
+    }
+
+    function replyReply(reNo) {
+        console.log(reNo);
+    }
+
+    $(document).ready(function () {
+        $.ajax({
+            type: 'POST',
+            url: '/reply/replyListAjax',
+            data: {
+                'brdNo': '${boardInfo.brdNo}'
+            },
+            dataType: 'json',
+            success: function (data) {
+                makeReply(data);
+            }
+        })
+    });
+</script>
 
 </body>
 </html>

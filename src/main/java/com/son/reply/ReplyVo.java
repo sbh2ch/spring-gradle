@@ -12,7 +12,7 @@ public class ReplyVo {
     private String reDate;
     private String reParent;
     private String reDepth;
-    private String reOrder;
+    private Integer reOrder;
 
     public ReplyVo() {
         /* default constructor */
@@ -82,11 +82,28 @@ public class ReplyVo {
         this.reDepth = reDepth;
     }
 
-    public String getReOrder() {
+    public Integer getReOrder() {
         return reOrder;
     }
 
-    public void setReOrder(String reOrder) {
+    public void setReOrder(Integer reOrder) {
         this.reOrder = reOrder;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "ReplyVo{" +
+                "brdNo='" + brdNo + '\'' +
+                ", reNo='" + reNo + '\'' +
+                ", reWriter='" + reWriter + '\'' +
+                ", reDeleteFlag='" + reDeleteFlag + '\'' +
+                ", reMemo='" + reMemo + '\'' +
+                ", reDate='" + reDate + '\'' +
+                ", reParent='" + reParent + '\'' +
+                ", reDepth='" + reDepth + '\'' +
+                ", reOrder=" + reOrder +
+                '}';
     }
 }

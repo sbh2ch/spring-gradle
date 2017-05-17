@@ -53,7 +53,7 @@ public class FileController {
             fis.close();
             os.close();
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 }

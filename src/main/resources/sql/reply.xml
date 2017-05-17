@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="reply">
+    <select id="selectReplyByBrdNo" resultType="com.son.reply.ReplyVo" parameterType="com.son.reply.ReplyVo">
+        SELECT BRDNO, RENO, REWRITER, REDELETEFLAG, REMEMO, REDATE, REPARENT, REDEPTH, REORDER
+        FROM TBL_BOARDREPLY
+        WHERE BRDNO=#{brdNo} AND REDELETEFLAG='N'
+        ORDER BY REORDER
+    </select>
+
+    <insert id="insertReply" parameterType="com.son.reply.ReplyVo">
+        <selectKey resultType="String" keyProperty="reNo" order="BEFORE">
+            SELECT IFNULL(MAX(RENO),0)+1 FROM TBL_BOARDREPLY
+        </selectKey>
+        INSERT INTO TBL_BOARDREPLY(BRDNO, RENO, REWRITER, REDELETEFLAG, REMEMO, REDATE, REORDER, REPARENT, REDEPTH)
+        VALUES (#{brdNo}, #{reNo}, #{reWriter}, 'N', #{reMemo}, NOW(), #{reOrder},
+        <choose>
+            <when test="reParent==null">#{reNo}, 0</when>
+            <otherwise>#{reParent}, #{reDepth}</otherwise>
+        </choose>
+        )
+    </insert>
+
+    <select id="selectParentReply" parameterType="String" resultType="com.son.reply.ReplyVo">
+        SELECT BRDNO, REDEPTH, REDEPTH, REORDER
+        FROM TBL_BOARDREPLY
+        WHERE RENO=#{brdNo}
+    </select>
+
+    <update id="updateReplyOrder" parameterType="com.son.reply.ReplyVo">
+        UPDATE TBL_BOARDREPLY
+        SET REORDER = REORDER + 1
+        WHERE BRDNO = #{brdNo} AND REORDER > #{reOrder}
+    </update>
+
+    <select id="selectMaxOrder" parameterType="String" resultType="Integer">
+        SELECT IFNULL((MAX(REORDER),0)+1)
+        FROM TBL_BOARDREPLY
+        WHERE BRDNO=#{brdno}
+    </select>
+
+    <select id="selectChildReply" resultType="Integer" parameterType="com.son.reply.ReplyVo">
+        SELECT COUNT(*)
+        FROM TBL_BOARDREPLY
+        WHERE REPARENT=#{reParent} AND RENO != #{reParent} AND REDELETEFLAG = 'N'
+    </select>
+
+    <update id="updateReplyOrder4Delete" parameterType="com.son.reply.ReplyVo">
+        UPDATE TBL_BOARDREPLY TBR1
+        INNER JOIN TBL_BOARDREPLY TBR2 ON TBR2.BRDNO=TBR1.BRDNO AND TBR1.REORDER >TBR2.REORDER AND TBR1.REDELETEFLAG='N'
+        SET TBR1.REORDER = TBR1.REORDER - 1
+        WHERE TBR2.RENO=#{reNo}
+    </update>
+
+    <update id="deleteReply" parameterType="com.son.reply.ReplyVo">
+        UPDATE TBL_BOARDREPLY
+        SET REDELETEFLAG='Y'
+        WHERE RENO=#{reNo}
+    </update>
+
+
+</mapper>
