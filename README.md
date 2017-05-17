@@ -11,14 +11,14 @@ and so on..<br/>
 
 ```
 CREATE TABLE TBL_BOARD (
-  BGNO INT(11),							            	   -- board group no
-  BRDNO int(11) NOT NULL AUTO_INCREMENT,	   -- article number
-  BRDTITLE varchar(255),		      				   -- title
-  BRDWRITER varchar(20),				      		   -- writer
-  BRDMEMO   varchar(4000),		      			   -- content
-  BRDDATE	datetime,						          	   -- date
-  BRDHIT INT,									               -- read count
-  BRDDELETEFLAG CHAR(1),			         			 -- delete flag
+  BGNO INT(11),                              -- board group no
+  BRDNO int(11) NOT NULL AUTO_INCREMENT,     -- article number
+  BRDTITLE varchar(255),                     -- title
+  BRDWRITER varchar(20),                     -- writer
+  BRDMEMO   varchar(4000),                   -- content
+  BRDDATE datetime,                          -- date
+  BRDHIT INT,                                -- read count
+  BRDDELETEFLAG CHAR(1),                     -- delete flag
   PRIMARY KEY (BRDNO)
 ) ;
 
@@ -32,27 +32,27 @@ CREATE TABLE TBL_BOARDFILE (
 );
 
 CREATE TABLE TBL_BOARDREPLY (
-    BRDNO INT(11) NOT NULL,					         -- article number
+    BRDNO INT(11) NOT NULL,                  -- article number
     RENO INT(11) NOT NULL,                   -- reply number
     REWRITER VARCHAR(10) NOT NULL,           -- writer
     REMEMO VARCHAR(500) DEFAULT NULL,        -- reply content
     REDATE DATETIME DEFAULT NULL,            -- date
     REDELETEFLAG VARCHAR(1) NOT NULL,        -- delete flag
-    REPARENT INT(11),							           -- parent reply
-    REDEPTH INT,								             -- deep	
-    REORDER INT,								             -- order
+    REPARENT INT(11),                        -- parent reply
+    REDEPTH INT,                             -- deep
+    REORDER INT,                             -- order
     PRIMARY KEY (RENO)
 );
 
 CREATE TABLE TBL_BOARDGROUP (
-  BGNO INT(11) NOT NULL AUTO_INCREMENT,		   -- board group number
-  BGNAME VARCHAR(50),							           -- board group name
-  BGPARENT INT(11),							             -- group parent
-  BGDELETEFLAG CHAR(1),						           -- delete flag
-  BGUSED CHAR(1),								             -- board using flag
-  BGREPLY CHAR(1),							             -- reply using flag
-  BGREADONLY CHAR(1),							           -- writable flag
-  BGDATE DATETIME,							             -- date
+  BGNO INT(11) NOT NULL AUTO_INCREMENT,      -- board group number
+  BGNAME VARCHAR(50),                        -- board group name
+  BGPARENT INT(11),                          -- group parent
+  BGDELETEFLAG CHAR(1),                      -- delete flag
+  BGUSED CHAR(1),                            -- board using flag
+  BGREPLY CHAR(1),                           -- reply using flag
+  BGREADONLY CHAR(1),                        -- writable flag
+  BGDATE DATETIME,                           -- date
   PRIMARY KEY (BGNO)
 );
 ```
