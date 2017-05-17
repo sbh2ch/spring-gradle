@@ -2,8 +2,7 @@ package com.son.board;
 
 import com.son.file.FileUtil;
 import com.son.file.FileVO;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.son.util.Search;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Service;
@@ -25,8 +24,8 @@ public class BoardService {
     @Autowired
     private DataSourceTransactionManager txManager;
 
-    public List<BoardVo> selectBoardList() {
-        return boardDao.selectBoardList();
+    public List<BoardVo> selectBoardList(Search search) {
+        return boardDao.selectBoardList(search);
     }
 
     public BoardVo readBoardOne(String brdNo) {
@@ -84,5 +83,9 @@ public class BoardService {
 
     public List<FileVO> selectFileList(String brdNo) {
         return boardDao.selectFileList(brdNo);
+    }
+
+    public int selectBoardCount(Search search) {
+        return boardDao.selectBoardCount(search);
     }
 }

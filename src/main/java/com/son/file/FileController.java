@@ -22,7 +22,6 @@ public class FileController {
         String fileName = req.getParameter("fileName");
         String downName = req.getParameter("downName");
         String realPath;
-        System.out.println("fileName : " + fileName);
 
         if (fileName == null || fileName.equals(""))
             fileName = downName;

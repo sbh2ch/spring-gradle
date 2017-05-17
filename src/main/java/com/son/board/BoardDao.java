@@ -1,12 +1,13 @@
 package com.son.board;
 
 import com.son.file.FileVO;
+import com.son.util.Search;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by kiost on 2017-05-11.
@@ -16,8 +17,8 @@ public class BoardDao {
     @Autowired
     private SqlSession sqlSession;
 
-    public List<BoardVo> selectBoardList() {
-        return sqlSession.selectList("board.selectBoardList");
+    public List<BoardVo> selectBoardList(Search search) {
+        return sqlSession.selectList("board.selectBoardList", search);
     }
 
     public BoardVo selectBoardOne(String brdNo) {
@@ -40,7 +41,7 @@ public class BoardDao {
         sqlSession.update("board.deleteBoard", brdNo);
     }
 
-    public void deleteFile(HashMap<String, String[]> fparam) {
+    public void deleteFile(Map<String, String[]> fparam) {
         sqlSession.delete("board.deleteFile", fparam);
     }
 
@@ -50,5 +51,9 @@ public class BoardDao {
 
     public List<FileVO> selectFileList(String brdNo) {
         return sqlSession.selectList("board.selectFileList", brdNo);
+    }
+
+    public int selectBoardCount(Search search) {
+        return sqlSession.selectOne("board.selectBoardCount", search);
     }
 }

@@ -15,9 +15,11 @@ public class BoardVo {
     private String brdDate;
     private String brdHit;
     private String brdDeleteFlag;
+    private String fileCnt;
     private List<MultipartFile> uploadFiles;
 
     public BoardVo() {
+        /* default constructor */
     }
 
     public List<MultipartFile> getUploadFiles() {
@@ -53,7 +55,7 @@ public class BoardVo {
     }
 
     public String getBrdMemo() {
-        return brdMemo;
+        return brdMemo.replaceAll("(?i)<script", "&lt;script");
     }
 
     public void setBrdMemo(String brdMemo) {
@@ -82,5 +84,13 @@ public class BoardVo {
 
     public void setBrdDeleteFlag(String brdDeleteFlag) {
         this.brdDeleteFlag = brdDeleteFlag;
+    }
+
+    public String getFileCnt() {
+        return fileCnt;
+    }
+
+    public void setFileCnt(String fileCnt) {
+        this.fileCnt = fileCnt;
     }
 }

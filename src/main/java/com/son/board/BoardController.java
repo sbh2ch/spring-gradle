@@ -1,5 +1,6 @@
 package com.son.board;
 
+import com.son.util.Search;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,8 +18,10 @@ public class BoardController {
     private BoardService service;
 
     @RequestMapping("/boardList.kosc ")
-    public String list(Model model) {
-        model.addAttribute("listView", service.selectBoardList());
+    public String list(Search search, Model model) {
+        search.pageCalculate(service.selectBoardCount(search));
+        model.addAttribute("page", search);
+        model.addAttribute("listView", service.selectBoardList(search));
         return "list";
     }
 
@@ -39,7 +42,7 @@ public class BoardController {
     }
 
     @RequestMapping("/boardSave.kosc")
-    public String boardSave(Model model, HttpServletRequest req, BoardVo boardVo){
+    public String boardSave(HttpServletRequest req, BoardVo boardVo){
         String[] fileNo = req.getParameterValues("fileNo");
         service.writeBoard(boardVo, fileNo);
 
