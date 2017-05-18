@@ -102,7 +102,8 @@
             type: 'POST',
             url: '/reply/replyDeleteAjax',
             data: {
-                'brdNo': reNo
+                'reNo': reNo,
+                'brdNo' : ${boardInfo.brdNo}
             },
             dataType: 'json',
             success: function (data) {
