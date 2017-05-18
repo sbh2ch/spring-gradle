@@ -43,4 +43,8 @@ public class ReplyDao {
         sqlSession.update("reply.updateReplyOrder4Delete", replyVo);
         sqlSession.update("reply.deleteReply", replyVo);
     }
+
+    public void updateReply(ReplyVo replyVo) {
+        sqlSession.update("reply.updateReply", replyVo);
+    }
 }

@@ -28,6 +28,7 @@ public class ReplyController {
 
     @RequestMapping(value = "/replySaveAjax")
     public void replySaveAjax(HttpServletResponse res, ReplyVo replyVo) {
+        System.out.println(replyVo);
         try {
             res.getWriter().print(new ObjectMapper().writeValueAsString(replyService.insertReply(replyVo)));
         } catch (IOException e) {
@@ -42,6 +43,14 @@ public class ReplyController {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
+    @RequestMapping(value = "/replyUpdateAjax")
+    public void replyUpdateAjax(HttpServletResponse res, ReplyVo replyVo) {
+        try {
+            res.getWriter().print(new ObjectMapper().writeValueAsString(replyService.updateReply(replyVo)));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

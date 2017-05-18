@@ -35,9 +35,9 @@
     </update>
 
     <select id="selectMaxOrder" parameterType="String" resultType="Integer">
-        SELECT IFNULL((MAX(REORDER),0)+1)
+        SELECT IFNULL(MAX(REORDER),0)+1
         FROM TBL_BOARDREPLY
-        WHERE BRDNO=#{brdno}
+        WHERE BRDNO=#{brdNo}
     </select>
 
     <select id="selectChildReply" resultType="Integer" parameterType="com.son.reply.ReplyVo">
@@ -57,6 +57,12 @@
         UPDATE TBL_BOARDREPLY
         SET REDELETEFLAG='Y'
         WHERE RENO=#{reNo}
+    </update>
+
+    <update id="updateReply" parameterType="com.son.reply.ReplyVo">
+        UPDATE TBL_BOARDREPLY
+        SET REMEMO = #{reMemo}
+        WHERE RENO = #{reNo}
     </update>
 
 

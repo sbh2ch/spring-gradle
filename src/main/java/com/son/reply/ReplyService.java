@@ -1,6 +1,7 @@
 package com.son.reply;
 
 import com.son.board.BoardVo;
+import com.son.util.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Service;
@@ -37,13 +38,14 @@ public class ReplyService {
                     replyVo.setReDepth(parentReply.getReDepth() + 1);
                     replyVo.setReOrder(parentReply.getReOrder());
                     replyDao.updateReplyOrder(parentReply);
+                } else {
+                    Integer reOrder = replyDao.selectReplyMaxOrder(replyVo.getBrdNo());
+                    replyVo.setReOrder(reOrder);
                 }
+                replyDao.insertReply(replyVo);
             } else {
-                Integer reOrder = replyDao.selectReplyMaxOrder(replyVo.getBrdNo());
-                replyVo.setReOrder(reOrder);
+                replyDao.updateReply(replyVo);
             }
-            replyDao.insertReply(replyVo);
-
             txManager.commit(status);
         } catch (Exception e) {
             System.out.println(e.toString());
@@ -56,9 +58,14 @@ public class ReplyService {
     }
 
     public ArrayList<ReplyVo> deleteReply(ReplyVo replyVo) {
-        if(replyDao.selectChildReply(replyVo) <= 0)
+        if (replyDao.selectChildReply(replyVo) <= 0)
             replyDao.deleteReply(replyVo);
 
         return (ArrayList<ReplyVo>) replyDao.selectReplyListByBrdNo(replyVo);
+    }
+
+    public ArrayList<ReplyVo> updateReply(ReplyVo replyVo) {
+
+        return null;
     }
 }

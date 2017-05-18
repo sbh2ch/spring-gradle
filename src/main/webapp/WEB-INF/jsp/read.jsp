@@ -56,6 +56,20 @@
 </div>
 <!-- -->
 <div id="commentList"></div>
+
+<div id="replyDiv" style="width: 99%; display: none;">
+    <form name="form2">
+        <input type="hidden" name="brdNo" value="<c:out value="${boardInfo.brdNo}"/>"/>
+        <input type="hidden" name="reNo"/>
+        <textarea name="reMemo" rows="3" cols="60" maxlength="500" required></textarea>
+        <input type="button" id="updateBtn" value="update">
+        <a href="#" onclick="javascript:replyUpdateCancel()">cancel</a>
+    </form>
+</div>
+
+<div id="replyDialog"></div>
+
+
 <!-- JQuery CDN Version 3.2.1 -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
@@ -98,12 +112,14 @@
     }
 
     function deleteReply(reNo) {
+        if (!confirm('do you want to delete this reply?'))
+            return;
         $.ajax({
             type: 'POST',
             url: '/reply/replyDeleteAjax',
             data: {
                 'reNo': reNo,
-                'brdNo' : ${boardInfo.brdNo}
+                'brdNo': ${boardInfo.brdNo}
             },
             dataType: 'json',
             success: function (data) {
@@ -113,8 +129,61 @@
         console.log(reNo);
     }
 
+    var updateReNo = updateReMemo = null;
     function updateReply(reNo) {
-        console.log(reNo);
+        hideDiv("replyDialog");
+
+        var form = document.form2;
+        var reply = document.getElementById("reply" + reNo);
+        var replyDiv = document.getElementById("replyDiv");
+        replyDiv.style.display = "";
+
+        if (updateReNo) {
+            document.body.appendChild(replyDiv);
+            var oldReno = document.getElementById("reply" + updateReNo);
+            oldReno.innerText = updateReMemo;
+        }
+
+
+        form.reNo.value = reNo;
+        form.reMemo.value = reply.innerText;
+        reply.innerText = "";
+        reply.appendChild(replyDiv);
+        updateReNo = reNo;
+        updateReMemo = form.reMemo.value;
+        form.reMemo.focus();
+
+        $("#updateBtn").unbind("click").bind("click", function () {
+            $("#commentList").after(replyDiv);
+            replyDiv.style.display = "none";
+            $.ajax({
+                type: 'POST',
+                url: '/reply/replySaveAjax',
+                data: {
+                    'reNo': reNo,
+                    'brdNo': '${boardInfo.brdNo}',
+                    'reMemo': form.reMemo.value
+                },
+                dataType: 'json',
+                success: function (data) {
+                    makeReply(data);
+                }
+            })
+        })
+    }
+
+    function replyUpdateCancel() {
+        hideDiv("replyDiv");
+
+        var $oldReNo = $("#reply" + updateReNo);
+        $oldReNo.innerText = updateReMemo;
+        updateReNo = updateReMemo = null;
+    }
+
+    function hideDiv(id) {
+        var div = document.getElementById(id);
+        div.style.display = "none";
+        document.body.appendChild(div);
     }
 
     function replyReply(reNo) {

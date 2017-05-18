@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13428455-7045-49a4-884f-1ac1776be4d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/reply.xml" afterPath="$PROJECT_DIR$/src/main/resources/sql/reply.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,14 +45,28 @@
     <favorites_list name="gradle-board" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47497496">
+    <splitter split-orientation="horizontal" split-proportion="0.46546546">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="read.jsp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1555">
+                  <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+                  <folding>
+                    <marker date="1495084844283" expanded="true" signature="2758:2893" ph="..." />
+                    <marker date="1495084844283" expanded="true" signature="3048:3054" ph="&amp;nbsp;" />
+                    <marker date="1495084844283" expanded="true" signature="3141:3147" ph="&amp;nbsp;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="ReplyController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="40" column="86" lean-forward="true" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+                <state relative-caret-position="252">
+                  <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -68,25 +86,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ReplyService.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ReplyService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1147">
-                  <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
+                <state relative-caret-position="391">
+                  <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SqlSessionTemplate.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.1.1/275e74a00e0edc0a6dc39ea73f214a7ef65b016a/mybatis-spring-1.1.1-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#8001#8002#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -107,8 +113,8 @@
           <file leaf-file-name="ReplyDao.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+                <state relative-caret-position="218">
+                  <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#678#679#0" expanded="true" />
@@ -119,6 +125,8 @@
                     <element signature="e#991#992#0" expanded="true" />
                     <element signature="e#1043#1044#0" expanded="true" />
                     <element signature="e#1121#1122#0" expanded="true" />
+                    <element signature="e#1349#1350#0" expanded="true" />
+                    <element signature="e#1412#1413#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,48 +135,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.57">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-              <file leaf-file-name="read.jsp" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-124">
-                      <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-                      <folding>
-                        <marker date="1495068588263" expanded="true" signature="2276:2411" ph="..." />
-                        <marker date="1495068588263" expanded="true" signature="2566:2572" ph="&amp;nbsp;" />
-                        <marker date="1495068588263" expanded="true" signature="2659:2665" ph="&amp;nbsp;" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="reply.xml" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="573">
-                      <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-                      <folding>
-                        <marker date="1495030032860" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-                        <marker date="1495030032860" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-                        <marker date="1495030032860" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
-                        <marker date="1495030032860" expanded="true" signature="1615:1705" ph="SELECT IFNUL... TBL_BOARDREPLY" />
-                        <marker date="1495030032860" expanded="true" signature="1823:1948" ph="SELECT COUNT... TBL_BOARDREPLY" />
-                        <marker date="1495030032860" expanded="true" signature="2052:2275" ph="UPDATE TBL_B... " />
-                        <marker date="1495030032860" expanded="true" signature="2367:2444" ph="UPDATE TBL_B... " />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="reply.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+                  <folding>
+                    <marker date="1495083790154" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
+                    <marker date="1495083790154" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
+                    <marker date="1495083790154" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
+                    <marker date="1495083790154" expanded="true" signature="1615:1703" ph="SELECT IFNUL... TBL_BOARDREPLY" />
+                    <marker date="1495083790154" expanded="true" signature="1821:1946" ph="SELECT COUNT... TBL_BOARDREPLY" />
+                    <marker date="1495083790154" expanded="true" signature="2050:2273" ph="UPDATE TBL_B... " />
+                    <marker date="1495083790154" expanded="true" signature="2365:2442" ph="UPDATE TBL_B... " />
+                    <marker date="1495083790154" expanded="true" signature="2534:2615" ph="UPDATE TBL_B... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -591,9 +578,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/file/FileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/reply.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" />
       </list>
@@ -617,8 +604,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2446" />
-    <option name="y" value="90" />
+    <option name="x" value="1179" />
+    <option name="y" value="222" />
     <option name="width" value="2317" />
     <option name="height" value="1858" />
   </component>
@@ -1390,12 +1377,12 @@
       <workItem from="1494490961886" duration="11410000" />
       <workItem from="1494567434735" duration="86084000" />
       <workItem from="1494668819370" duration="32931000" />
-      <workItem from="1494993684939" duration="28015000" />
+      <workItem from="1494993684939" duration="39403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158440000" />
+    <option name="totallyTimeSpent" value="169828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1407,7 +1394,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2446" y="90" width="2317" height="1858" extended-state="0" />
+    <frame x="1179" y="222" width="2317" height="1858" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1418,12 +1405,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18920487" sideWeight="0.4980695" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4416715" sideWeight="0.4980695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.62276304" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.37723693" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.6216216" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.3783784" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1454,16 +1441,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/son/board/BoardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/board.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1793,16 +1770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/dev/workspace/status/WebContent/m_rgb_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -1871,16 +1838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/son/file/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/board/BoardService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -1922,7 +1879,7 @@
         <state relative-caret-position="423">
           <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
           <folding>
-            <element signature="e#8001#8002#0" expanded="true" />
+            <element signature="e#8001#8002#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1934,22 +1891,6 @@
           <folding>
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#671#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <marker date="1495030032860" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-            <marker date="1495030032860" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-            <marker date="1495030032860" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
-            <marker date="1495030032860" expanded="true" signature="1615:1705" ph="SELECT IFNUL... TBL_BOARDREPLY" />
-            <marker date="1495030032860" expanded="true" signature="1823:1948" ph="SELECT COUNT... TBL_BOARDREPLY" />
-            <marker date="1495030032860" expanded="true" signature="2052:2275" ph="UPDATE TBL_B... " />
-            <marker date="1495030032860" expanded="true" signature="2367:2444" ph="UPDATE TBL_B... " />
           </folding>
         </state>
       </provider>
@@ -1972,10 +1913,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="1768" column="35" lean-forward="false" selection-start-line="1768" selection-start-column="35" selection-end-line="1768" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="2" column="14513" lean-forward="false" selection-start-line="2" selection-start-column="14513" selection-end-line="2" selection-end-column="14513" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/son/file/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="40" column="86" lean-forward="true" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1984,8 +1941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="218">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#678#679#0" expanded="true" />
@@ -1996,28 +1953,57 @@
             <element signature="e#991#992#0" expanded="true" />
             <element signature="e#1043#1044#0" expanded="true" />
             <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
+        <state relative-caret-position="391">
+          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <marker date="1495083790154" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
+            <marker date="1495083790154" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
+            <marker date="1495083790154" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
+            <marker date="1495083790154" expanded="true" signature="1615:1703" ph="SELECT IFNUL... TBL_BOARDREPLY" />
+            <marker date="1495083790154" expanded="true" signature="1821:1946" ph="SELECT COUNT... TBL_BOARDREPLY" />
+            <marker date="1495083790154" expanded="true" signature="2050:2273" ph="UPDATE TBL_B... " />
+            <marker date="1495083790154" expanded="true" signature="2365:2442" ph="UPDATE TBL_B... " />
+            <marker date="1495083790154" expanded="true" signature="2534:2615" ph="UPDATE TBL_B... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="1555">
+          <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
           <folding>
-            <marker date="1495068588263" expanded="true" signature="2276:2411" ph="..." />
-            <marker date="1495068588263" expanded="true" signature="2566:2572" ph="&amp;nbsp;" />
-            <marker date="1495068588263" expanded="true" signature="2659:2665" ph="&amp;nbsp;" />
+            <marker date="1495084844283" expanded="true" signature="2758:2893" ph="..." />
+            <marker date="1495084844283" expanded="true" signature="3048:3054" ph="&amp;nbsp;" />
+            <marker date="1495084844283" expanded="true" signature="3141:3147" ph="&amp;nbsp;" />
           </folding>
         </state>
       </provider>
