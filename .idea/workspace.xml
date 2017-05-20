@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Gradle : gradle-board : gradle-board-1.0-SNAPSHOT.war (exploded) archive" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13428455-7045-49a4-884f-1ac1776be4d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___gradle_board___gradle_board_1_0_SNAPSHOT_war__exploded__archive.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/gradle-board_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/gradle-board_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/gradle-board_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/gradle-board_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" afterPath="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/reply.xml" afterPath="$PROJECT_DIR$/src/main/resources/sql/reply.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,126 +49,14 @@
     <favorites_list name="gradle-board" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46546546">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="read.jsp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1555">
-                  <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-                  <folding>
-                    <marker date="1495084844283" expanded="true" signature="2758:2893" ph="..." />
-                    <marker date="1495084844283" expanded="true" signature="3048:3054" ph="&amp;nbsp;" />
-                    <marker date="1495084844283" expanded="true" signature="3141:3147" ph="&amp;nbsp;" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReplyController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/son/file/FileController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReplyService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BoardVo.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/son/board/BoardVo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1197">
-                  <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReplyDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#678#679#0" expanded="true" />
-                    <element signature="e#750#751#0" expanded="true" />
-                    <element signature="e#806#807#0" expanded="true" />
-                    <element signature="e#880#881#0" expanded="true" />
-                    <element signature="e#928#929#0" expanded="true" />
-                    <element signature="e#991#992#0" expanded="true" />
-                    <element signature="e#1043#1044#0" expanded="true" />
-                    <element signature="e#1121#1122#0" expanded="true" />
-                    <element signature="e#1349#1350#0" expanded="true" />
-                    <element signature="e#1412#1413#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="reply.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-                  <folding>
-                    <marker date="1495083790154" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-                    <marker date="1495083790154" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-                    <marker date="1495083790154" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
-                    <marker date="1495083790154" expanded="true" signature="1615:1703" ph="SELECT IFNUL... TBL_BOARDREPLY" />
-                    <marker date="1495083790154" expanded="true" signature="1821:1946" ph="SELECT COUNT... TBL_BOARDREPLY" />
-                    <marker date="1495083790154" expanded="true" signature="2050:2273" ph="UPDATE TBL_B... " />
-                    <marker date="1495083790154" expanded="true" signature="2365:2442" ph="UPDATE TBL_B... " />
-                    <marker date="1495083790154" expanded="true" signature="2534:2615" ph="UPDATE TBL_B... " />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -575,7 +467,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/son/board/BoardService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/core-servlet.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/file/FileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java" />
@@ -583,6 +474,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/reply.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -604,10 +497,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1179" />
-    <option name="y" value="222" />
+    <option name="x" value="524" />
+    <option name="y" value="129" />
     <option name="width" value="2317" />
-    <option name="height" value="1858" />
+    <option name="height" value="1856" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -645,7 +538,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -690,70 +582,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -778,123 +606,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="son" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reply" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle-board" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="son" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="board" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.40900734" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
-    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plug&#9;ACTION&#9;AddGradleDslPluginAction&#10;Preference&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.policy.jaxws.PolicyWSDLParserExtension#processReferenceUri&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../board00" />
+    <property name="SearchEverywhereHistoryKey" value="project st&#9;ACTION&#9;ShowProjectStructureSettings&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plug&#9;ACTION&#9;AddGradleDslPluginAction&#10;Preference&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.policy.jaxws.PolicyWSDLParserExtension#processReferenceUri&#10;git&#9;ACTION&#9;Github.Share" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../viewer" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src" />
+      <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF\jsp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\resources\sql" />
       <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF\js" />
       <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\kiost\IdeaProjects\gradle-board\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1377,12 +1118,13 @@
       <workItem from="1494490961886" duration="11410000" />
       <workItem from="1494567434735" duration="86084000" />
       <workItem from="1494668819370" duration="32931000" />
-      <workItem from="1494993684939" duration="39403000" />
+      <workItem from="1494993684939" duration="40472000" />
+      <workItem from="1495154481946" duration="4905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169828000" />
+    <option name="totallyTimeSpent" value="175802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1394,8 +1136,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1179" y="222" width="2317" height="1858" extended-state="0" />
-    <editor active="true" />
+    <frame x="524" y="129" width="2317" height="1856" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18646617" sideWeight="0.49895832" order="7" side_tool="false" content_ui="tabs" />
@@ -1404,26 +1145,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7335563" sideWeight="0.50104165" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4416715" sideWeight="0.4980695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4416715" sideWeight="0.4980695" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.6216216" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.3783784" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.71577126" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13092649" sideWeight="0.28422877" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294596" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1441,47 +1182,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/board.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494995536833" expanded="true" signature="639:825" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:894" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:926" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="733:773" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="733:790" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="1041:1203" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="1279:1358" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1603:1624" ph="INSERT INTO TBL_BOARD... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1892" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1914" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2001" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2017" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2142" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2173" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2250:2283" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2250:2436" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2525:2587" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2525:2655" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2782" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2802" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2838" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2867" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2896" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="3012:3045" ph="SELECT COUNT... TBL_" />
-            <marker date="1494995536833" expanded="true" signature="3012:3050" ph="SELECT COUNT... TBL_BOARD" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/board/BoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,9 +1194,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,9 +1202,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,9 +1210,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1519,33 +1218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494995536833" expanded="true" signature="639:825" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:894" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:926" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="733:773" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="733:790" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="1041:1203" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="1279:1358" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1603:1624" ph="INSERT INTO TBL_BOARD... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1892" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1914" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2001" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2017" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2142" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2173" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2250:2283" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2250:2436" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2525:2587" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2525:2655" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2782" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2802" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2838" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2867" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2896" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="3012:3045" ph="SELECT COUNT... TBL_" />
-            <marker date="1494995536833" expanded="true" signature="3012:3050" ph="SELECT COUNT... TBL_BOARD" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,9 +1234,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,9 +1242,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,9 +1250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,9 +1258,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,33 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1494995536833" expanded="true" signature="639:825" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:894" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:926" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="733:773" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="733:790" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="1041:1203" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="1279:1358" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1603:1624" ph="INSERT INTO TBL_BOARD... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1892" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1914" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2001" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2017" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2142" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2173" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2250:2283" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2250:2436" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2525:2587" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2525:2655" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2782" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2802" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2838" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2867" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2896" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="3012:3045" ph="SELECT COUNT... TBL_" />
-            <marker date="1494995536833" expanded="true" signature="3012:3050" ph="SELECT COUNT... TBL_BOARD" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,22 +1293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.6.RELEASE/74e437c914201b70db2022052bc35611ad4beb9a/spring-webmvc-4.1.6.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="322" column="59" lean-forward="true" selection-start-line="322" selection-start-column="59" selection-end-line="322" selection-end-column="59" />
-          <folding>
-            <element signature="e#17180#17181#0" expanded="false" />
-            <element signature="e#17194#17195#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1704,13 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1737,9 +1357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1755,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,10 +1380,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1782,16 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1112">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1800,33 +1404,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <marker date="1494995536833" expanded="true" signature="639:825" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:894" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="639:926" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="733:773" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="733:790" ph="SELECT COUNT... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="1041:1203" ph="SELECT BRDNO... TBL_BOARD" />
-            <marker date="1494995536833" expanded="true" signature="1279:1358" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1603:1624" ph="INSERT INTO TBL_BOARD... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1892" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:1914" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2001" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="1864:2017" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2142" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2094:2173" ph="UPDATE TBL_B... " />
-            <marker date="1494995536833" expanded="true" signature="2250:2283" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2250:2436" ph="DELETE FROM " />
-            <marker date="1494995536833" expanded="true" signature="2525:2587" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2525:2655" ph="INSERT INTO TBL_BOARDFILE... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2782" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2802" ph="SELECT FILEN... " />
-            <marker date="1494995536833" expanded="true" signature="2768:2838" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2867" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="2768:2896" ph="SELECT FILEN... TBL_BOARDFILE" />
-            <marker date="1494995536833" expanded="true" signature="3012:3045" ph="SELECT COUNT... TBL_" />
-            <marker date="1494995536833" expanded="true" signature="3012:3050" ph="SELECT COUNT... TBL_BOARD" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1834,7 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2564">
           <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1842,34 +1419,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/board/BoardVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="1155">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1888,10 +1445,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1899,9 +1453,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1917,7 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="1768" column="35" lean-forward="false" selection-start-line="1768" selection-start-column="35" selection-end-line="1768" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1925,86 +1476,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="2" column="14513" lean-forward="false" selection-start-line="2" selection-start-column="14513" selection-end-line="2" selection-end-column="14513" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/file/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="672">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="483">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="672">
+          <caret line="41" column="71" lean-forward="false" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/son/reply/ReplyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="504">
           <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/reply.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <marker date="1495083790154" expanded="true" signature="304:493" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-            <marker date="1495083790154" expanded="true" signature="1211:1306" ph="SELECT BRDNO... TBL_BOARDREPLY" />
-            <marker date="1495083790154" expanded="true" signature="1403:1514" ph="UPDATE TBL_B... " />
-            <marker date="1495083790154" expanded="true" signature="1615:1703" ph="SELECT IFNUL... TBL_BOARDREPLY" />
-            <marker date="1495083790154" expanded="true" signature="1821:1946" ph="SELECT COUNT... TBL_BOARDREPLY" />
-            <marker date="1495083790154" expanded="true" signature="2050:2273" ph="UPDATE TBL_B... " />
-            <marker date="1495083790154" expanded="true" signature="2365:2442" ph="UPDATE TBL_B... " />
-            <marker date="1495083790154" expanded="true" signature="2534:2615" ph="UPDATE TBL_B... " />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/read.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1555">
-          <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
-          <folding>
-            <marker date="1495084844283" expanded="true" signature="2758:2893" ph="..." />
-            <marker date="1495084844283" expanded="true" signature="3048:3054" ph="&amp;nbsp;" />
-            <marker date="1495084844283" expanded="true" signature="3141:3147" ph="&amp;nbsp;" />
-          </folding>
+        <state relative-caret-position="1827">
+          <caret line="87" column="28" lean-forward="false" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2018,7 +1585,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40900734" />
                 <option value="0.5" />
               </list>
             </option>
@@ -2027,11 +1594,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web Gradle : gradle-board-1.0-SNAPSHOT.war (gradle-board_main)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40900734" />
               </list>
             </option>
           </splitter-proportions>
@@ -2062,12 +1629,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gradle-board_test|gradle-board</last-edited>
+          <last-edited>Spring|gradle-board_main|gradle-board</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.40900734" />
               </list>
             </option>
           </splitter-proportions>

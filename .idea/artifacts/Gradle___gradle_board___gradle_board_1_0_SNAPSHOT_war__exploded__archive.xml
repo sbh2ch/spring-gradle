@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : gradle-board : gradle-board-1.0-SNAPSHOT.war (exploded) archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gradle___gradle_board___gradle_board_1_0_SNAPSHOT_war__exploded__archive</output-path>
+    <root id="archive" name="Gradle _ gradle-board _ gradle-board-1.0-SNAPSHOT.war (exploded) archive.war">
+      <element id="artifact" artifact-name="Gradle : gradle-board : gradle-board-1.0-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>
